@@ -1,0 +1,133 @@
+.navbar {
+  align-self: flex-start;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: white;
+  position: fixed;
+}
+.navbar ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr;
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar img {
+  margin-left: 0%;
+  margin-top: 1%;
+  max-width: 40%;
+  max-height: 35%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  margin-top: 5rem;
+}
+.header form {
+  display: flex;
+  flex-direction: column;
+}
+
+.header form input {
+  margin-bottom: 5%;
+}
+
+#submit {
+  background-color: yellow;
+  text-transform: uppercase;
+  font-weight: 800;
+  border: 0;
+  outline: 0;
+}
+.main {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.features article {
+  display: flex;
+  margin-top: 3%;
+}
+
+.features .text {
+  margin-left: 2%;
+}
+
+.features .text h2 {
+  margin: 0;
+}
+
+.features .text p {
+  margin-top: 1%;
+}
+.features article img {
+  align-self: center;
+  max-height: 12%;
+  max-width: 10%;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+.differentTrombones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.differentTrombones article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+  margin-right: 3%;
+  border: 2px solid;
+}
+
+.differentTrombones > article > h2 {
+  background-color: lightgrey;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  background-color: lightgray;
+  margin-top: 3%;
+}
+
+.footer > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.footer > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer > ul > li {
+  padding-right: 1rem;
+}
+
+@media (max-width: 400) {
+  main {
+    margin: 0;
+  }
+}
